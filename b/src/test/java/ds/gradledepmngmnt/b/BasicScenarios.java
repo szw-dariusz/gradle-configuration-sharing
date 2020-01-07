@@ -1,4 +1,4 @@
-package ds.experimental.gradledepmngmnt;
+package ds.gradledepmngmnt.b;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,10 +9,5 @@ final class BasicScenarios {
     @Test
     void trueIsTrue() {
         then(true).isTrue();
-    }
-
-    @Test
-    void falseIsFalse() {
-        then(false).isFalse();
     }
 }
