@@ -1,5 +1,5 @@
 plugins {
-    ds.tools.gradle.`simple-java-plugin`
+    `simple-java-plugin`
     `java-library`
-    id("org.javamodularity.moduleplugin")
+    id(Plugin.GRADLE_JPMS_MODULES.id)
 }

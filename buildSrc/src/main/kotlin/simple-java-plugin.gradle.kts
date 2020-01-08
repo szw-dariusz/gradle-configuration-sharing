@@ -1,5 +1,3 @@
-package ds.tools.gradle
-
 plugins {
     java
 }
@@ -16,8 +14,8 @@ java {
 }
 
 dependencies {
-    testImplementation(Library.JUNIT)
-    testImplementation(Library.ASSERTJ)
+    testImplementation(Library.JUNIT.notation)
+    testImplementation(Library.ASSERTJ.notation)
 }
 
 tasks.withType<Test> {

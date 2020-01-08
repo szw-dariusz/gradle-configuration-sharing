@@ -1,5 +1,5 @@
 plugins {
-    ds.tools.gradle.`simple-java-plugin`
+    `simple-java-plugin`
 }
 
 dependencies {

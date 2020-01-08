@@ -3,5 +3,5 @@ description = "Project for exploring Dependency management in Gradle build scrip
 version = "0.1.0"
 
 plugins {
-    id("org.javamodularity.moduleplugin") version "1.6.0" apply false
+    id(Plugin.GRADLE_JPMS_MODULES.id) version Plugin.GRADLE_JPMS_MODULES.version apply false
 }
